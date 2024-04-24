@@ -31,28 +31,20 @@ padding: 10px;
 box-shadow: 2px 2px #ccc;
 
 }
-#sb{
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-padding: 10px;
-margin:20px;
-background-color: #4285F4;
-border:0;
-font-weight: 500;
-box-shadow: 2px 2px #ccc;
+#sb, #lucky {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4285F4;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 2px 2px #ccc;
 }
-.bt{
-background-color: #545454;
-text-align: center;
-color:#4285F4;
-padding: 10px;
-margin: 20px;
-border-radius: 10px;
-border:0;
-box-shadow: 2px 2px #ccc;
-}
+
 #sb:hover{
 box-shadow: 6px 6px #ccc;
 background-color: #DB4437;
@@ -60,7 +52,7 @@ color: #fff;
 
 transition: ease 0.3s;
 }
-.bt:hover{
+#lucky:hover{
 box-shadow: 6px 6px #ccc;
 background-color: #DB4437;
 color:#fff;

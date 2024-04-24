@@ -33,13 +33,16 @@
             
             
         </div>
-       <div class="container col-12">
-        <form action="https://google.com/search" class="col-12">
-            <input type="text" name="q" placeholder="What's on your mind ?" id="q" class="col-8">
-            <input type="submit" value="Google Search" class="btn btn-warning" id="sb">
-            
-        </form>
-</div>
+        <div class="container col-12">
+            <form action="https://google.com/search" class="col-12" style="display: flex; align-items: center;">
+                <input type="text" name="q" placeholder="What's on your mind ?" id="q" class="col-8">
+                <div style="display: flex;">
+                    <input type="submit" value="Google Search" class="btn btn-warning" id="sb">
+                    <input type="submit" value="I'm Feeling Lucky" name="btnI" class="btn btn-primary" id="lucky">
+                </div>
+            </form>
+        </div>
+        
     </body>
     <script>
         document.querySelector('.menu-toggle').addEventListener('click', function() {
